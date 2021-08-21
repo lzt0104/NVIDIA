@@ -1,4 +1,3 @@
-```python
 import numpy as np
 from numpy.polynomial.polynomial import polyfit
 import matplotlib.pyplot as plt
@@ -30,4 +29,4 @@ plt.plot(x, y, '.')
 plt.plot(x, y_hat, '-')
 plt.show() 
 print("Loss:", np.sum((y - y_hat)**2)/len(x))
-```
+
